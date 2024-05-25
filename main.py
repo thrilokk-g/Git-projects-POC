@@ -5,7 +5,7 @@ def main():
     auth_system = AuthenticationSystem()
 
     # Registration
-    auth_system.register("user1", "password1")
+    auth_system.register("user1", "password11")
 
     # Login
     if auth_system.login("user1", "password1"):
